@@ -1,0 +1,859 @@
+Package: atril
+Version: 1.28.1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 19311
+Depends: libarchive13t64 (>= 3.4.0), libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.35), libcairo2 (>= 1.14.0), libdjvulibre21 (>= 3.5.28), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.21.5), libice6 (>= 1:1.0.0), libmate-desktop-2-17t64 (>= 1.6.1), libpango-1.0-0 (>= 1.14.0), libpoppler-glib8t64 (>= 0.22.1), libsecret-1-0 (>= 0.7), libsm6 (>= 2:1.2.6), libsynctex2 (>= 2024.20240313.70630+ds), libtiff6 (>= 4.0.3), libxml2 (>= 2.7.4), dconf-gsettings-backend | gsettings-backend
+Filename: ./atril_1.28.1_amd64.deb
+Size: 1311396
+MD5sum: 926965d3d2a85e7735522a8c4772f102
+SHA1: 04de9cd8009d6ff46670d17182d4a958f43bccb4
+SHA256: 5f7b6ee4e510298ce3bc9f311af54d3710a2814b44c9564ab231bced63d760ee
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: caja
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 26
+Filename: ./caja_1.28.0-1_amd64.deb
+Size: 19396
+MD5sum: 5b897379c001a69711774c5344d6733d
+SHA1: a72eefdc037ba71b15f89b8c4fe298aa4bf69100
+SHA256: cddbb809b07bf8cb39070f7b9a615678877b9c0a8573753ade73ef32443e381f
+Section: mate
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE file manager
+ File manager for the MATE desktop environment.
+
+Package: caja-extensions
+Version: 1.28.0
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 1705
+Depends: libc6 (>= 2.34), libcaja-extension1 (>= 1.22.1), libdbus-glib-1-2 (>= 0.78), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libgtk-3-0t64 (>= 3.21.4), libmate-desktop-2-17t64 (>= 1.6.1), dconf-gsettings-backend | gsettings-backend
+Filename: ./caja-extensions_1.28.0_amd64.deb
+Size: 235656
+MD5sum: 7e987612f37efc6627fa6e5a46c9e6bb
+SHA1: 0400d881f3b42c84be5cba3043a01e22d8bfe5bb
+SHA256: d2f4e525b46e1d3eea18f5b0623d1642c6299fed4816b560c5b362b15bdf7885
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: caja-sendto
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Conflicts: caja-sendto
+Replaces: caja-sendto
+Provides: caja-sendto
+Filename: ./caja-sendto_1.28.0-1_amd64.deb
+Size: 2232
+MD5sum: 8ae868fa2a8b47f871a95e36df3b5621
+SHA1: 49db63b53fa2c026f5023d026ffa11083a36d542
+SHA256: 68560c7227254cc1a8a617196d3fd825ca70ea585eb168ebe8c755af054695df
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for caja-sendto
+ This is a transitional package to satisfy dependencies on caja-sendto
+ which is now provided by the caja-sendto package.
+
+Package: engrampa
+Version: 1.28.2
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 14527
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libcaja-extension1 (>= 1.6.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 1.5.2), libpango-1.0-0 (>= 1.14.0), libsm6 (>= 2:1.2.6), dconf-gsettings-backend | gsettings-backend
+Filename: ./engrampa_1.28.2_amd64.deb
+Size: 1112136
+MD5sum: be2e1b96cd0e28bde413e3bb41147609
+SHA1: 1ef96a7d27a975efcdf3192f5ef2f74107bf72a0
+SHA256: f5f6f10f844c3772fc54d084ee00a956ddf37dfe9e04bb6b7859b01194c9114d
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: eom
+Version: 1.28.0
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9111
+Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.10.0), libexempi8 (>= 2.5.0), libexif12 (>= 0.6.21-1~), libgdk-pixbuf-2.0-0 (>= 2.25.2), libgirepository-1.0-1 (>= 0.9.3), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libmate-desktop-2-17t64 (>= 1.6.1), libpeas-1.0-0 (>= 1.0.0), librsvg2-2 (>= 2.14.4), libx11-6, libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
+Filename: ./eom_1.28.0_amd64.deb
+Size: 1361828
+MD5sum: 2bdd780a83eda3c15a73bf260266c977
+SHA1: cde22cf0e2c25201199b5e52d7f428c7813991c5
+SHA256: 8e1b001e80da5c06ea073e5f990b4e27cb76071966d9d247031c892a3410ec86
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: gir1.2-eom-1.0
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Conflicts: gir1.2-eom-1.0
+Replaces: gir1.2-eom-1.0
+Provides: gir1.2-eom-1.0
+Filename: ./gir1.2-eom-1.0_1.28.0-1_amd64.deb
+Size: 2236
+MD5sum: ee4deb9a9ea1ab3666bfb5dc97ad0c59
+SHA1: d920e41d54081695cd464a1ab5c9de009312ee90
+SHA256: 754e599ad06e0f710e0e9ac8efa8328696c01a34a25bba71caf95ee985a17a6d
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for gir1.2-eom-1.0
+ This is a transitional package to satisfy dependencies on gir1.2-eom-1.0
+ which is now provided by the gir1.2-eom-1.0 package.
+
+Package: libatrildocument3t64
+Version: 1.28.1-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Depends: atril (= 1.28.1-1)
+Conflicts: libatrildocument3t64
+Replaces: libatrildocument3t64
+Provides: libatrildocument3t64
+Filename: ./libatrildocument3t64_1.28.1-1_amd64.deb
+Size: 2260
+MD5sum: d5d59eb4b0a5c80bf24a00680fd0ceb4
+SHA1: 5ca29b6b2ac6195995e4bf30d664fa2ca3f274d8
+SHA256: f0958938533344272cdeed998043ac2fefe0fbb8f2e35a3d60f8b943f79a9b39
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for libatrildocument3t64
+ This is a transitional package to satisfy dependencies on libatrildocument3t64
+ which is now provided by the atril package.
+
+Package: libcaja-extension1
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Depends: caja (= 1.28.0-1)
+Conflicts: libcaja-extension1
+Replaces: libcaja-extension1
+Provides: libcaja-extension1
+Filename: ./libcaja-extension1_1.28.0-1_amd64.deb
+Size: 2256
+MD5sum: a913eb8eb5d94e350205b1469d8c36fe
+SHA1: adb8e8751f3d6c21152597a6e0f8adad3d9b3b19
+SHA256: 091cbecfcefa570470f3e5c20caf99ad8a87c234c90433d2ec76349f41d85847
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for libcaja-extension1
+ This is a transitional package to satisfy dependencies on libcaja-extension1
+ which is now provided by the caja package.
+
+Package: libmate-desktop-2-17
+Source: mate-desktop
+Version: 1.28.2-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 17
+Filename: ./libmate-desktop-2-17_1.28.2-1_amd64.deb
+Size: 10552
+MD5sum: fcdfac5246589aac75c38051e46e2d3d
+SHA1: 485cedc4f3a4d815d17d01ff384615d3fc5f0bbd
+SHA256: b4bd51792ebf977d8546a176cd817f044855787da2e75b7a6a444b472e57cd3f
+Section: libs
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE desktop shared library
+ Common API library for MATE desktop environment modules.
+
+Package: libmate-desktop-2-17t64
+Version: 1.28.2-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Depends: libmate-desktop-2-17 (= 1.28.2-1)
+Conflicts: libmate-desktop-2-17t64
+Replaces: libmate-desktop-2-17t64
+Provides: libmate-desktop-2-17t64
+Filename: ./libmate-desktop-2-17t64_1.28.2-1_amd64.deb
+Size: 2268
+MD5sum: ec4a3d9fae5ba5f363bdb1a9a0408251
+SHA1: dd7b91f281a71e0b06f05d1cf7c02aa9b730bc25
+SHA256: 75b26f973a9ded2e24d8edec70d38a125edfade837924d11b65d91edcddd9884
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for libmate-desktop-2-17t64
+ This is a transitional package to satisfy dependencies on libmate-desktop-2-17t64
+ which is now provided by libmate-desktop-2-17.
+
+Package: libmate-desktop-dev
+Source: mate-desktop
+Version: 1.28.2-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 17
+Depends: libmate-desktop-2-17 (= 1.28.2-1)
+Filename: ./libmate-desktop-dev_1.28.2-1_amd64.deb
+Size: 10568
+MD5sum: 1a853c7e40978b425ab6c5ec06371bf9
+SHA1: 1d3ea0ed6458a343d8afe89b70db38f611f5053e
+SHA256: 82be595870a7c514aa974542c5079084e6686d50a2189aa4ca78904f6a6acfdd
+Section: libdevel
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE desktop library - development files
+ Development headers for the MATE desktop library.
+
+Package: libmate-menu-dev
+Source: mate-menus
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 17
+Depends: libmate-menu2 (= 1.28.0-1)
+Filename: ./libmate-menu-dev_1.28.0-1_amd64.deb
+Size: 9848
+MD5sum: 3aa8c7c3dacd6f08f13e1b23de61b91d
+SHA1: cb294ca98d47996b14150f2a4bc73c139cfc9d43
+SHA256: db2b599312f6b8afc6c88ccc2a566287c9c906eced23593218d1e1108a848338
+Section: libdevel
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE menu library - development files
+
+Package: libmate-menu2
+Source: mate-menus
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 17
+Filename: ./libmate-menu2_1.28.0-1_amd64.deb
+Size: 9840
+MD5sum: 33dcdf1acbe22adf509c22ff25c89eef
+SHA1: 615d0fa89f08ae54116f981063153d94fe6ae0e5
+SHA256: 690f03e3a338d002105e86b1385ade51791124888acb820eaac3798deeaba59d
+Section: libs
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE menu library
+ Library for desktop menu functionality in MATE.
+
+Package: libmate-panel-applet-4-1
+Version: 1.28.4-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Depends: mate-panel (= 1.28.4-1)
+Conflicts: libmate-panel-applet-4-1
+Replaces: libmate-panel-applet-4-1
+Provides: libmate-panel-applet-4-1
+Filename: ./libmate-panel-applet-4-1_1.28.4-1_amd64.deb
+Size: 2276
+MD5sum: 8a1551e88506f20dad035f4da1fba8f7
+SHA1: 43363765be463e07008c4662dbdf6ec0e1b0a6bd
+SHA256: 299b5790de9680582bad7da4f2f12c768b19e596b4d964c1d2e073997245e978
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for libmate-panel-applet-4-1
+ This is a transitional package to satisfy dependencies on libmate-panel-applet-4-1
+ which is now provided by the mate-panel package.
+
+Package: libmatedict6
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Depends: mate-utils (= 1.28.0-1)
+Conflicts: libmatedict6
+Replaces: libmatedict6
+Provides: libmatedict6
+Filename: ./libmatedict6_1.28.0-1_amd64.deb
+Size: 2256
+MD5sum: 8106b5f25c289385d790291a5d69684b
+SHA1: f50ebb7fb608202f0388aaec5d2edd9ab079333e
+SHA256: 50164bc65dadd656fc77d0d096fbe2d0d08b073f2dbeec60361fe5e535f1d99d
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for libmatedict6
+ This is a transitional package to satisfy dependencies on libmatedict6
+ which is now provided by the mate-utils package.
+
+Package: libmatekbd
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@locuravo>
+Installed-Size: 1271
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.19.12), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.22.0), libx11-6, libxklavier16 (>= 5.0), dconf-gsettings-backend | gsettings-backend
+Filename: ./libmatekbd_1.28.0-1_amd64.deb
+Size: 151672
+MD5sum: fa6849ee3a594461daa7963d26fdaa36
+SHA1: 02998bcef6300d07918e50320d6926f8a04b2716
+SHA256: a371cdfb026f887b2d5329e04d5fb337b50459ec33b15846cb967618d3af2795
+Section: unknown
+Priority: optional
+Description: MATE Desktop - keyboard library
+
+Package: libmatekbd-dev
+Source: libmatekbd
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 17
+Depends: libmatekbd4 (= 1.28.0-1)
+Filename: ./libmatekbd-dev_1.28.0-1_amd64.deb
+Size: 10136
+MD5sum: 1bf26532ff2beb90bf055397f75577ae
+SHA1: 0c48601637cf20793476f5f18a34c612fc94bfaf
+SHA256: 2283b6d0229e56311b0815ee22f528badf37b6083ff3c1ac6dd3392cd0bd01e6
+Section: libdevel
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE keyboard configuration library - development files
+ Development headers for libmatekbd.
+
+Package: libmatekbd4
+Source: libmatekbd
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 17
+Filename: ./libmatekbd4_1.28.0-1_amd64.deb
+Size: 10108
+MD5sum: 0e951187d32ea2786fa79041b907fdfd
+SHA1: 45a0e2d72611d65ec42ef9b2efa6ba5dee85d18e
+SHA256: d36e35aa8e232218e32abdaed9a4eccba51ee590e68abca9564bc51673efa5fc
+Section: libs
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE keyboard configuration library
+ Shared library for keyboard configuration in MATE desktop environment.
+
+Package: libmatemixer-dev
+Source: libmatemixer
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 17
+Depends: libmatemixer0 (= 1.28.0-1)
+Filename: ./libmatemixer-dev_1.28.0-1_amd64.deb
+Size: 10140
+MD5sum: 059308c4ffcd2ebe6dcf5a9998bce9d5
+SHA1: a83e263a749a0826db0dc69d396ef49e24ed2d5c
+SHA256: 756e15d474eefe992059925390166ca2f9f42c8f3f6524ff72e7567ffeadf39e
+Section: libdevel
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE audio mixer library - development files
+
+Package: libmatemixer0
+Source: libmatemixer
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 17
+Filename: ./libmatemixer0_1.28.0-1_amd64.deb
+Size: 10132
+MD5sum: a410e7db8146f79d2a1fa5aea7ab876d
+SHA1: f62a48add0360b6d42f64c785e9ad078ee96367b
+SHA256: 457ca5019bcca737b2ac184368e463497e3b82f6c0f5b3b7612698427b79df80
+Section: libs
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE audio mixer library
+ Shared library for audio mixer functionality in MATE desktop.
+
+Package: libmateweather-dev
+Source: libmateweather
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 18
+Depends: libmateweather1 (= 1.28.0-1)
+Filename: ./libmateweather-dev_1.28.0-1_amd64.deb
+Size: 12400
+MD5sum: 207ac7b85009e0f02a24c9cdc39e317e
+SHA1: df406b9cb4d9e231b4cc1b9ab39885f129f0b620
+SHA256: d431ed004f0194c4f07e1fac4d6e9c87266bdcf1985db8970249c8c4eb23a75f
+Section: libdevel
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE weather library - development files
+
+Package: libmateweather1
+Source: libmateweather
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 18
+Filename: ./libmateweather1_1.28.0-1_amd64.deb
+Size: 12392
+MD5sum: 1f85af3246be8ca6e0e9cdff374f8323
+SHA1: f413c60660b95722a34266e88545bf276889b029
+SHA256: 914d1e60c030dc4b721d7b130985630d2b1d62f1118803dba16edabbc99feac5
+Section: libs
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE weather library
+ Shared library for weather information in MATE desktop.
+
+Package: libmateweather1t64
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Depends: libmateweather1 (= 1.28.0-1)
+Conflicts: libmateweather1t64
+Replaces: libmateweather1t64
+Provides: libmateweather1t64
+Filename: ./libmateweather1t64_1.28.0-1_amd64.deb
+Size: 2264
+MD5sum: 3e1d24503d2e09be9df03b896ab7ba89
+SHA1: 34e3a5a7dfeaadd4113d98fec970b3c9ade575be
+SHA256: 8a0922d03db6b2f5451ab38229ef226d6f364a697d1e0649a203da2dd85b226a
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for libmateweather1t64
+ This is a transitional package to satisfy dependencies on libmateweather1t64
+ which is now provided by the libmateweather1 package.
+
+Package: marco
+Version: 1.28.1-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 21
+Filename: ./marco_1.28.1-1_amd64.deb
+Size: 13760
+MD5sum: bb1fa1af8e30bed24b278600e0e92337
+SHA1: 072de5e2539f4c111f5df0b89d9ac41282793afc
+SHA256: b3be3741d0749dabf586094d660e0e01bccd3bb0890a05964309b11ade95c685
+Section: mate
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE window manager
+ Window manager for the MATE desktop environment.
+
+Package: mate-applets
+Version: 1.28.1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 52192
+Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libdbus-glib-1-2 (>= 0.88), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libgtop-2.0-11 (>= 2.22.3), libmate-desktop-2-17t64 (>= 1.6.1), libmate-panel-applet-4-1 (>= 1.20.2), libmateweather1t64 (>= 1.6.2), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpolkit-gobject-1-0 (>= 0.99), libupower-glib3 (>= 0.99.8), libwnck-3-0 (>= 2.91.6), libx11-6, libxml2 (>= 2.7.4), dconf-gsettings-backend | gsettings-backend
+Filename: ./mate-applets_1.28.1_amd64.deb
+Size: 7519260
+MD5sum: ace2aca920781660777dbfd44fc5e33b
+SHA1: b1372a96d13e2045dae0d00829973f72917db647
+SHA256: 9123af230c29d9dac24b4e6fec81277acf32f14df27ecffffb93c7ce3daec728
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: mate-backgrounds
+Version: 1.28.0
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 46226
+Filename: ./mate-backgrounds_1.28.0_amd64.deb
+Size: 46631024
+MD5sum: 097906ba5320e8a7332fe2b1bef9084a
+SHA1: 182205b993bbc5f1b3945e82bba300e6a695a15a
+SHA256: f1e4c51f4cbb40de092473b348fb7c872e3461943fec1ac34d80e52c67abbd70
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: mate-calc
+Version: 1.28.0
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 8655
+Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libmpc3 (>= 1.1.0), libmpfr6 (>= 4.0.0), libpango-1.0-0 (>= 1.14.0), libxml2 (>= 2.7.4), dconf-gsettings-backend | gsettings-backend
+Filename: ./mate-calc_1.28.0_amd64.deb
+Size: 663912
+MD5sum: 19ebfa1ce178f9bee8b3cf0163b148ed
+SHA1: c56480786d560adcb5ac0e329a92cd39fa130d2e
+SHA256: 5c11a5f7b45ab3a7094164719bde9fce781093f80efdc452bac2ec79d120ebb0
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: mate-control-center
+Version: 1.28.0
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 16188
+Depends: libatk1.0-0t64 (>= 1.12.4), libayatana-appindicator3-1 (>= 0.2.92), libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libdconf1 (>= 0.14.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libgtop-2.0-11 (>= 2.22.3), libmarco-private2 (>= 1.22.2), libmate-desktop-2-17t64 (>= 1.22.1), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpolkit-gobject-1-0 (>= 0.99), libudisks2-0 (>= 2.0.0), libx11-6, libxcursor1 (>> 1.1.2), libxi6 (>= 2:1.2.0), libxklavier16 (>= 5.0), libxml2 (>= 2.7.4), libxss1, dconf-gsettings-backend | gsettings-backend
+Filename: ./mate-control-center_1.28.0_amd64.deb
+Size: 2421276
+MD5sum: 6113ac8f85e91493fe08827946ffcc77
+SHA1: b10dca2a5e67bc0a42bb883ac316295be87340d1
+SHA256: 2cd3d97361af6fe2f59e234d1b792ccaf82190abd77f0006d7c06e50a7d4a562
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: mate-desktop-common
+Source: mate-desktop
+Version: 1.28.2-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 17
+Filename: ./mate-desktop-common_1.28.2-1_amd64.deb
+Size: 10540
+MD5sum: db8f6c8c7625f43ffbce211ea80c7d16
+SHA1: c95725f6568fad527fe3d882cb5d1c8695b90ee1
+SHA256: ace2e3784bc0e4f9fb7cce1064d999724b984b15e1f3e0ef446d65b17708ec14
+Section: libs
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE desktop common files
+ Common files for the MATE desktop environment.
+
+Package: mate-icon-theme
+Version: 1.28.0
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 35383
+Filename: ./mate-icon-theme_1.28.0_amd64.deb
+Size: 13915016
+MD5sum: bd65f4297cfc2b9452e11cacbf2edb37
+SHA1: 69b4ef02f941a8ff41843aec98ffe44cec8ffd2e
+SHA256: f7027d6dc484baf43af0ebc14c918e048697aa92bf17258367c9a8d04cf6bac8
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: mate-indicator-applet
+Version: 1.28.0
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 852
+Depends: libatk1.0-0t64 (>= 1.12.4), libayatana-ido3-0.4-0 (>= 0.4.0), libayatana-indicator3-7 (>= 0.6.0), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.22.0), libgtk-3-0t64 (>= 3.0.0), libmate-panel-applet-4-1 (>= 1.6.1), libx11-6
+Filename: ./mate-indicator-applet_1.28.0_amd64.deb
+Size: 85132
+MD5sum: 5a6da471b587cb5d75244fc6aff97a8b
+SHA1: 2e72b5a897f7c692efb928aa2aa883028e544594
+SHA256: 359a560e3ace95ba93f248b0897313cdeff5542217f0344c980738ed30f6b4b5
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: mate-media
+Version: 1.28.1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 1806
+Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libmate-desktop-2-17t64 (>= 1.14.0), libmate-panel-applet-4-1 (>= 1.6.1), libpango-1.0-0 (>= 1.14.0), libxml2 (>= 2.7.4)
+Filename: ./mate-media_1.28.1_amd64.deb
+Size: 230796
+MD5sum: 6f67da982058b6ad9b92324e438a2f6f
+SHA1: 54937a3cae93e4243dc7e95d62e747d74d51fc1e
+SHA256: 57021c1e74cfbea87575563444eadeb7a1d32c8d72df4e55271b811914d10c34
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: mate-notification-daemon
+Version: 1.28.3
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 997
+Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.21.4), libmate-desktop-2-17t64 (>= 1.10.0), libmate-panel-applet-4-1 (>= 1.20.2), libnotify4 (>= 0.7.0), libwnck-3-0 (>= 2.91.6), libx11-6, libxml2 (>= 2.7.4), dconf-gsettings-backend | gsettings-backend
+Filename: ./mate-notification-daemon_1.28.3_amd64.deb
+Size: 132324
+MD5sum: f171817361b001e0b38fe454632ef112
+SHA1: a97103ac42ea72c65871a364258a41067e98dc15
+SHA256: fbb2e8315811c276d27c2887bd396da9387d165c225d0e3d7dc198e4b6fe35a7
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: mate-panel
+Version: 1.28.4
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 14855
+Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.38), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.14.0), libgdk-pixbuf-2.0-0 (>= 2.25.2), libglib2.0-0t64 (>= 2.83.0), libgtk-3-0t64 (>= 3.21.5), libice6 (>= 1:1.0.0), libmate-desktop-2-17t64 (>= 1.10.0), libmateweather1t64 (>= 1.6.2), libpango-1.0-0 (>= 1.18.0), libsm6 (>= 2:1.2.6), libwnck-3-0 (>= 3.24.0), libx11-6, libxrandr2 (>= 2:1.2.99.3), dconf-gsettings-backend | gsettings-backend
+Filename: ./mate-panel_1.28.4_amd64.deb
+Size: 1988524
+MD5sum: e02e821f40cb9686fe1fef32d870f4ea
+SHA1: 661b96c3411e0824f65b18ca13c35552e07b0a60
+SHA256: beaf4b7da24b24edf80e1970491bd4fe063594151f909fe35935e9c4d79616b7
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: mate-polkit
+Version: 1.28.1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 557
+Depends: libayatana-appindicator3-1 (>= 0.2.92), libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.16.2), libpolkit-agent-1-0 (>= 0.99), libpolkit-gobject-1-0 (>= 0.99)
+Filename: ./mate-polkit_1.28.1_amd64.deb
+Size: 51252
+MD5sum: 8a7b462bcfa6dd61f1d95756edda4642
+SHA1: 15a7e0dcf530c3fe760c60c4e78499656a40a032
+SHA256: 6b5c92801ab5c67f6d05d7099619ff68cfa45d6f1906499f1a15a5d188e844f4
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: mate-power-manager
+Version: 1.28.1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 17032
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libdbus-1-3 (>= 1.10), libdbus-glib-1-2 (>= 0.88), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libmate-desktop-2-17t64 (>= 1.6.1), libmate-panel-applet-4-1 (>= 1.6.1), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libsecret-1-0 (>= 0.7), libupower-glib3 (>= 0.99.8), libx11-6, libxext6, libxrandr2 (>= 2:1.2.99.2), dconf-gsettings-backend | gsettings-backend
+Filename: ./mate-power-manager_1.28.1_amd64.deb
+Size: 6131832
+MD5sum: 1f8ad98cf1f5e9c17d65c80c3f24087f
+SHA1: b515dea62b7206be4c6608ca58a6468293878ae8
+SHA256: 2890f688ac8455beba150c84818e3ae6fd7ad6c49e09213b228d4eb6f9d981f0
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: mate-screensaver
+Version: 1.28.0
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 6661
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.10.0), libcrypt1 (>= 1:4.1.0), libdbus-1-3 (>= 1.10), libdbus-glib-1-2 (>= 0.78), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgl1, libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libmate-desktop-2-17t64 (>= 1.14.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.18.0), libsystemd0, libx11-6, libxext6, libxklavier16 (>= 5.0), libxss1, dconf-gsettings-backend | gsettings-backend
+Filename: ./mate-screensaver_1.28.0_amd64.deb
+Size: 4692780
+MD5sum: 2b32b417470508f4c9b6fc86b55ea419
+SHA1: f8c43a9e2b8d69a82b3c395f377a8f82897cc1a1
+SHA256: d1e065ee44b0503944c18f26c49e781f85faed31a7c22e882840ec936398cd6c
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: mate-sensors-applet
+Version: 1.28.0
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 5222
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.36.0), libgtk-3-0t64 (>= 3.21.4), libmate-panel-applet-4-1 (>= 1.6.1), libnotify4 (>= 0.7.0), dconf-gsettings-backend | gsettings-backend
+Filename: ./mate-sensors-applet_1.28.0_amd64.deb
+Size: 243004
+MD5sum: 96bb9f1e613d6cea85e98746d91eef6c
+SHA1: 42d643db163b49e9eed0441287e38a26e2456b48
+SHA256: d8be8360e78709ea1dd0a35cae299e69b6f835774afca7fb380a62b1f3b69752
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: mate-session-manager
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 2062
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.10), libdbus-glib-1-2 (>= 0.88), libegl1, libepoxy0 (>= 1.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgl1, libgles2, libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libice6 (>= 1:1.0.0), libsm6 (>= 2:1.2.6), libsystemd0, libx11-6, libxau6 (>= 1:1.0.11), libxcomposite1 (>= 1:0.4.6), libxext6, libxrender1 (>= 1:0.9.12), libxtst6 (>= 2:1.2.5), dconf-gsettings-backend | gsettings-backend
+Filename: ./mate-session-manager_1.28.0-1_amd64.deb
+Size: 330088
+MD5sum: 662fdfec560d3df13ad255309fafbae6
+SHA1: 6b6cbb1d92ae3b9ea44963faac1c67db29124773
+SHA256: 2714781d3823acdb7f22d090425ffdbbdb5af43fca75153859a7e3e943266863
+Section: mate
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE session manager
+ Session manager for the MATE desktop environment.
+
+Package: mate-settings-daemon
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 21
+Filename: ./mate-settings-daemon_1.28.0-1_amd64.deb
+Size: 13580
+MD5sum: 5587de4ac9a499f3a8606b8d99113e8e
+SHA1: c379075fa94ae30e6103a2e9152562d6b625149f
+SHA256: 7f31843d6ce51350f254d5a8424bca2c7e41f0fcdffdb70d9edd336aa36d54fa
+Section: mate
+Priority: optional
+Description: MATE settings daemon
+
+Package: mate-system-monitor
+Version: 1.28.1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 13115
+Depends: libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libglibmm-2.4-1t64 (>= 2.66.8), libgtk-3-0t64 (>= 3.21.5), libgtkmm-3.0-1t64 (>= 3.24.10), libgtop-2.0-11 (>= 2.37.90), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), librsvg2-2 (>= 2.14.4), libsigc++-2.0-0v5 (>= 2.2.0), libstdc++6 (>= 13.1), libsystemd0, libxml2 (>= 2.7.4), dconf-gsettings-backend | gsettings-backend
+Filename: ./mate-system-monitor_1.28.1_amd64.deb
+Size: 1985116
+MD5sum: 2396708b0484acbddd45482280bcb47f
+SHA1: 8e3c71d9849f3d6e67bc33efc1a10aa4acf2e6fc
+SHA256: 1e68ad9f38a806ae73f82cb26a06601904015b983801cfd060d90e255be48ce5
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: mate-terminal
+Version: 1.28.1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 14308
+Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libdconf1 (>= 0.14.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libice6 (>= 1:1.0.0), libpango-1.0-0 (>= 1.14.0), libsm6 (>= 2:1.2.6), libvte-2.91-0 (>= 0.51.90), libx11-6, dconf-gsettings-backend | gsettings-backend
+Filename: ./mate-terminal_1.28.1_amd64.deb
+Size: 1322328
+MD5sum: 3a4bedcb874b72ea7a2906d4193535d3
+SHA1: 0fc23e90e9bd40b38a859ab72b926111fb667780
+SHA256: 8fb62536332310b8ccf98a9d6d111a5f90a555b6ccb36a83216faea9fa411cbe
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: mate-user-share
+Version: 1.28.0
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 3760
+Depends: libc6 (>= 2.34), libcaja-extension1 (>= 1.6.3), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.4), libpango-1.0-0 (>= 1.14.0), libselinux1 (>= 3.1~), libx11-6, dconf-gsettings-backend | gsettings-backend
+Filename: ./mate-user-share_1.28.0_amd64.deb
+Size: 686992
+MD5sum: 536d07b81c5dfab1d8864abce5c816d0
+SHA1: 53c0acf2d41b7a98edabde364d1c7e873f985305
+SHA256: a6bbee24e35917b0d51d4d200bb61db36f6c58f7d51459fed02d57d0ca9506a5
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: mate-utils
+Version: 1.28.0
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 27147
+Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.5), libgtop-2.0-11 (>= 2.22.3), libice6 (>= 1:1.0.0), libmate-desktop-2-17t64 (>= 1.6.1), libmate-panel-applet-4-1 (>= 1.6.1), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsm6 (>= 2:1.2.6), libudisks2-0 (>= 2.0.0), libx11-6, libxext6, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
+Filename: ./mate-utils_1.28.0_amd64.deb
+Size: 6842336
+MD5sum: 528f11a7fc9f0ea2d878cc8d6909a466
+SHA1: 494c6cbd32b3ff42e225e19dca4feefbfd9604c2
+SHA256: 66fbcb3cdc7b99fe758c6a5497e962f5388f91120b7364e43e83fc5cd0c7a11b
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: mozo
+Version: 1.28.0
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 1062
+Filename: ./mozo_1.28.0_amd64.deb
+Size: 115356
+MD5sum: 42ee89e351907895349e2a632fc2de54
+SHA1: 9410e658f85e7346674fc8533c834de3bfa4745e
+SHA256: 573644d809779d2a38838591d0a24c842e716b50f5f8b497720c9e1635b79afd
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: pluma
+Version: 1.28.0
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 28603
+Depends: libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libenchant-2-2 (>= 2.2.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgirepository-1.0-1 (>= 0.9.3), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.21.6), libgtksourceview-4-0 (>= 3.23.90), libice6 (>= 1:1.0.0), libmate-desktop-2-17t64 (>= 1.6.1), libpango-1.0-0 (>= 1.42.0), libpeas-1.0-0 (>= 1.1.0), libsm6 (>= 2:1.2.6), libx11-6, libxml2 (>= 2.7.4), dconf-gsettings-backend | gsettings-backend
+Filename: ./pluma_1.28.0_amd64.deb
+Size: 2574688
+MD5sum: 082352aee637e1ef59f4a98b21417c71
+SHA1: cf7a2a07e1fd624a181539c218342d84e46c4d36
+SHA256: b30520ffb675ef5a16819d63af7623cb5fded96098118772e9dd49c296ab53a8
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: python-caja
+Version: 1.28.0
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 301
+Depends: libc6 (>= 2.4), libcaja-extension1 (>= 1.6.3), libglib2.0-0t64 (>= 2.28.0), libgtk-3-0t64 (>= 3.0.0), libpython3.13 (>= 3.13.0~rc3)
+Filename: ./python-caja_1.28.0_amd64.deb
+Size: 25232
+MD5sum: 422c99fc26b9a39df4b6da0ce6640ea8
+SHA1: 4fdd5895b47ffbdce17b4a5843aa239939f0ad8a
+SHA256: f25648cbd2a4949abe27aa03707bc8632554ca27e443d3ff1b9d283d43ccba9f
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <Insert long description, indented with spaces.>
+
+Package: python3-caja
+Version: 1.28.0-1
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Depends: python-caja (= 1.28.0-1)
+Conflicts: python3-caja
+Replaces: python3-caja
+Provides: python3-caja
+Filename: ./python3-caja_1.28.0-1_amd64.deb
+Size: 2244
+MD5sum: 20b31d4f6601931f2171b59c21687538
+SHA1: 675716f1efbea568ab8cd2d6a3b909527d76dfe5
+SHA256: 1fca50fe26b37b62b3914da06c2c5b590c4c28ae9aef76c66bad2d90f89a14df
+Section: python
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for python3-caja
+ This is a transitional package to satisfy dependencies on python3-caja
+ which is now provided by the python-caja package.
+
