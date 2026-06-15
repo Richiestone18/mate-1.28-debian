@@ -1,0 +1,5 @@
+Types: deb
+URIs: https://richiestone18.github.io/mate-1.28-debian/
+Suites: ./
+Signed-By: /usr/share/keyrings/mate-1.28-debian-archive-keyring.gpg
+Components: 
