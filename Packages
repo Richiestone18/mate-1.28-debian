@@ -31,6 +31,39 @@ Homepage: https://mate-desktop.org
 Description: MATE file manager
  File manager for the MATE desktop environment.
 
+Package: caja-common
+Source: caja
+Version: 1.28.0-1
+Architecture: all
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 26
+Filename: ./caja-common_1.28.0-1_all.deb
+Size: 19396
+MD5sum: 4f3f235945381b37db28430c876ff43a
+SHA1: 63c8615cc5accb7d69aaa08f59418837c4c1794c
+SHA256: a56760a8128b4ec2dffea84a1de3dbc9159102406e10ec4039c2551e3cbdb94e
+Section: mate
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE file manager - common files
+
+Package: caja-dropbox
+Version: 1.28.0
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 447
+Depends: libc6 (>= 2.15), libglib2.0-0t64 (>= 2.50.0), libgtk-3-0t64 (>= 3.22.0), caja (>= 1.28.0), dropbox, libcaja-extension1 (>= 1.28.0)
+Filename: ./caja-dropbox_1.28.0_amd64.deb
+Size: 88796
+MD5sum: b5d9fd8bdebf4b22de8eadddfd74381d
+SHA1: 2a8576454f763c6a50a2c844898d57c4b4d0351f
+SHA256: 998b9162b4d5f8ab9c5fba577ccf069d58268ab5cc0b89c1184bc0f26b0aef11
+Section: x11
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: Dropbox integration for Caja
+ Caja extension for Dropbox file synchronization service.
+
 Package: caja-extensions
 Version: 1.28.0
 Architecture: amd64
@@ -84,6 +117,27 @@ Priority: optional
 Homepage: <insert the upstream URL, if relevant>
 Description: <insert up to 60 chars description>
  <Insert long description, indented with spaces.>
+
+Package: engrampa-common
+Version: 1.28.0-1
+Architecture: all
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Depends: engrampa (= 1.28.0-1)
+Conflicts: engrampa-common
+Replaces: engrampa-common
+Provides: engrampa-common
+Filename: ./engrampa-common_1.28.0-1_all.deb
+Size: 2248
+MD5sum: b19827672d5d693302f93fce355130b1
+SHA1: 1b7e4cf558ec2dbedddf234c37abb677a16b08d4
+SHA256: 70aa20d85e3e1aeae933c6aaa63c59a3c61c9a8aef91d894009185b93c1b274d
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for engrampa-common
+ This is a transitional package to satisfy dependencies on engrampa-common
+ which is now provided by the engrampa package.
 
 Package: eom
 Version: 1.28.0
@@ -451,6 +505,22 @@ Homepage: https://mate-desktop.org
 Description: MATE window manager
  Window manager for the MATE desktop environment.
 
+Package: marco-common
+Source: marco
+Version: 1.28.1-1
+Architecture: all
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 21
+Filename: ./marco-common_1.28.1-1_all.deb
+Size: 13760
+MD5sum: 320c2786b170dcfa2daf68c875bc168e
+SHA1: 8f062bd8fc6b7c59c08e1abb6d658fe54da3d2bc
+SHA256: 59e80cafb010b8d074d95b9a7c39de5c4c31a49183e0cfbcbb9de239b72faf1d
+Section: mate
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE window manager - common files
+
 Package: mate-applets
 Version: 1.28.1
 Architecture: amd64
@@ -501,6 +571,44 @@ Homepage: <insert the upstream URL, if relevant>
 Description: <insert up to 60 chars description>
  <Insert long description, indented with spaces.>
 
+Package: mate-calc-common
+Version: 1.28.0-1
+Architecture: all
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Depends: mate-calc (= 1.28.0-1)
+Conflicts: mate-calc-common
+Replaces: mate-calc-common
+Provides: mate-calc-common
+Filename: ./mate-calc-common_1.28.0-1_all.deb
+Size: 2256
+MD5sum: 8f4c5617a7c58266248a68433c84f191
+SHA1: 60516d6d15795b0edb993752464f603f33621699
+SHA256: 83ebbe6e9ce25f281d8d962115ea67b6479f5474fe6e5a61d53e37c4598a89d8
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for mate-calc-common
+ This is a transitional package to satisfy dependencies on mate-calc-common
+ which is now provided by the mate-calc package.
+
+Package: mate-common
+Version: 1.28.0-1
+Architecture: all
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 55
+Filename: ./mate-common_1.28.0-1_all.deb
+Size: 16324
+MD5sum: 8268c0b2461e47087f29b9faf11e493c
+SHA1: abe3a69a568a3ab3c9d2b9eae70f0ffd48b6d792
+SHA256: e198d0e4b9c248a88a2b5a4407cfc8f5194896f18edd1c37a29ecb4752ccec8e
+Section: devel
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: common files for MATE desktop environment
+ mate-common contains common files and macros used by the MATE
+ desktop environment packages.
+
 Package: mate-control-center
 Version: 1.28.0
 Architecture: amd64
@@ -517,6 +625,44 @@ Priority: optional
 Homepage: <insert the upstream URL, if relevant>
 Description: <insert up to 60 chars description>
  <Insert long description, indented with spaces.>
+
+Package: mate-control-center-common
+Version: 1.28.0-1
+Architecture: all
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Depends: mate-control-center (= 1.28.0-1)
+Conflicts: mate-control-center-common
+Replaces: mate-control-center-common
+Provides: mate-control-center-common
+Filename: ./mate-control-center-common_1.28.0-1_all.deb
+Size: 2264
+MD5sum: 8b9d33da0e5078af0ca89d65242c9fb8
+SHA1: 416753458861b4810501da8eb8fee9af46fc310c
+SHA256: 14fa8807cc3b285e924f80521a4ffbc2042d789e2661272d84f51347168c8acb
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for mate-control-center-common
+ This is a transitional package to satisfy dependencies on mate-control-center-common
+ which is now provided by the mate-control-center package.
+
+Package: mate-desktop
+Version: 1.28.2
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 93
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.50.0), libgtk-3-0t64 (>= 3.22.0), libmate-desktop-2-17 (>= 1.28.2), mate-desktop-common (= 1.28.2)
+Filename: ./mate-desktop_1.28.2_amd64.deb
+Size: 19224
+MD5sum: df317c01f2e68a8d54657859283a2db5
+SHA1: cc49962a1c225f5ed6fc1cbe40e89f01fdfb01b9
+SHA256: 8dd7e87b9efa92e3d46d06b6c1b744f5225054bccd84f79d94454ed3c52a69d8
+Section: x11
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE desktop shared library
+ Common API library for various MATE desktop modules.
 
 Package: mate-desktop-common
 Source: mate-desktop
@@ -568,6 +714,27 @@ Homepage: <insert the upstream URL, if relevant>
 Description: <insert up to 60 chars description>
  <Insert long description, indented with spaces.>
 
+Package: mate-indicator-applet-common
+Version: 1.28.0-1
+Architecture: all
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Depends: mate-indicator-applet (= 1.28.0-1)
+Conflicts: mate-indicator-applet-common
+Replaces: mate-indicator-applet-common
+Provides: mate-indicator-applet-common
+Filename: ./mate-indicator-applet-common_1.28.0-1_all.deb
+Size: 2284
+MD5sum: 23a4e7a3475b538b12c8c7109f154e5f
+SHA1: 93b0381ccb16023230ae113d88b98eaacecb8c95
+SHA256: 78ee40200b26c13c1ec97e58809611f5c8abacc2aacaeb39574f72c01faff544
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for mate-indicator-applet-common
+ This is a transitional package to satisfy dependencies on mate-indicator-applet-common
+ which is now provided by the mate-indicator-applet package.
+
 Package: mate-media
 Version: 1.28.1
 Architecture: amd64
@@ -585,6 +752,43 @@ Homepage: <insert the upstream URL, if relevant>
 Description: <insert up to 60 chars description>
  <Insert long description, indented with spaces.>
 
+Package: mate-media-common
+Version: 1.28.0-1
+Architecture: all
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Depends: mate-media (= 1.28.0-1)
+Conflicts: mate-media-common
+Replaces: mate-media-common
+Provides: mate-media-common
+Filename: ./mate-media-common_1.28.0-1_all.deb
+Size: 2252
+MD5sum: 5a7c2d2845fe6a61dc48303566a792be
+SHA1: a3891ea4440617b2ff4fbeaa7bd32647e514c730
+SHA256: b22e512389af67a36149f86112eb9e1b3d7b03893eff1a2d5d101aabdc11f583
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for mate-media-common
+ This is a transitional package to satisfy dependencies on mate-media-common
+ which is now provided by the mate-media package.
+
+Package: mate-menus
+Version: 1.28.0
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 98
+Filename: ./mate-menus_1.28.0_amd64.deb
+Size: 22756
+MD5sum: 6351f6d264c783589b7d91b1beecc20d
+SHA1: 75efa908789787e4f201176246bc3238348c579c
+SHA256: 3876a90b2be18b5a07e1167844f5c134cf4dcea0af51de6f57c62268f2ea5296
+Section: x11
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: MATE menu specification implementation
+ Implementation of the freedesktop.org menu specification for MATE.
+
 Package: mate-notification-daemon
 Version: 1.28.3
 Architecture: amd64
@@ -601,6 +805,27 @@ Priority: optional
 Homepage: <insert the upstream URL, if relevant>
 Description: <insert up to 60 chars description>
  <Insert long description, indented with spaces.>
+
+Package: mate-notification-daemon-common
+Version: 1.28.0-1
+Architecture: all
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Depends: mate-notification-daemon (= 1.28.0-1)
+Conflicts: mate-notification-daemon-common
+Replaces: mate-notification-daemon-common
+Provides: mate-notification-daemon-common
+Filename: ./mate-notification-daemon-common_1.28.0-1_all.deb
+Size: 2280
+MD5sum: 666648ad698e79921e8347d5174a297e
+SHA1: c865de009a9e950b144c698c86365b0cb85dc862
+SHA256: 3a18957f3e6d3d25db4c480c6a1c5dd216dcfc1e17f4dafc64298cf50ba23297
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for mate-notification-daemon-common
+ This is a transitional package to satisfy dependencies on mate-notification-daemon-common
+ which is now provided by the mate-notification-daemon package.
 
 Package: mate-panel
 Version: 1.28.4
@@ -653,6 +878,27 @@ Homepage: <insert the upstream URL, if relevant>
 Description: <insert up to 60 chars description>
  <Insert long description, indented with spaces.>
 
+Package: mate-power-manager-common
+Version: 1.28.0-1
+Architecture: all
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Depends: mate-power-manager (= 1.28.0-1)
+Conflicts: mate-power-manager-common
+Replaces: mate-power-manager-common
+Provides: mate-power-manager-common
+Filename: ./mate-power-manager-common_1.28.0-1_all.deb
+Size: 2268
+MD5sum: 359d71c0aa8c090e3e75fa0adccc992c
+SHA1: 25068477e7178ac37ea045961ae86cbac3a18048
+SHA256: 0eaf0519ae7f9656a9afe283f60f52094055d92e997c4f412cfcb36641e36b08
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for mate-power-manager-common
+ This is a transitional package to satisfy dependencies on mate-power-manager-common
+ which is now provided by the mate-power-manager package.
+
 Package: mate-screensaver
 Version: 1.28.0
 Architecture: amd64
@@ -669,6 +915,27 @@ Priority: optional
 Homepage: <insert the upstream URL, if relevant>
 Description: <insert up to 60 chars description>
  <Insert long description, indented with spaces.>
+
+Package: mate-screensaver-common
+Version: 1.28.0-1
+Architecture: all
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Depends: mate-screensaver (= 1.28.0-1)
+Conflicts: mate-screensaver-common
+Replaces: mate-screensaver-common
+Provides: mate-screensaver-common
+Filename: ./mate-screensaver-common_1.28.0-1_all.deb
+Size: 2268
+MD5sum: f55aa8b17c859b9e594999825ff3c7d1
+SHA1: c3e40f68877a771bfdd88b87cc80a9dce73fd835
+SHA256: f9b5af4ac440ed4c218038267265396cc3d9bfdaf6fa87ea869b3ca1f24ccc5d
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for mate-screensaver-common
+ This is a transitional package to satisfy dependencies on mate-screensaver-common
+ which is now provided by the mate-screensaver package.
 
 Package: mate-sensors-applet
 Version: 1.28.0
@@ -717,6 +984,21 @@ SHA256: 7f31843d6ce51350f254d5a8424bca2c7e41f0fcdffdb70d9edd336aa36d54fa
 Section: mate
 Priority: optional
 Description: MATE settings daemon
+
+Package: mate-settings-daemon-common
+Source: mate-settings-daemon
+Version: 1.28.0-1
+Architecture: all
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 21
+Filename: ./mate-settings-daemon-common_1.28.0-1_all.deb
+Size: 13600
+MD5sum: 6ee49d02743a27a069d548cd8ab7aa41
+SHA1: dec0d6ac38fb3c69124b016a140a4358c37e902a
+SHA256: 00927310aee5eb163600b66b383ad211b8c622a011a8cbf1cd6e98075611bfd1
+Section: mate
+Priority: optional
+Description: MATE settings daemon - common files
 
 Package: mate-system-monitor
 Version: 1.28.1
@@ -818,6 +1100,44 @@ Priority: optional
 Homepage: <insert the upstream URL, if relevant>
 Description: <insert up to 60 chars description>
  <Insert long description, indented with spaces.>
+
+Package: pluma-common
+Version: 1.28.0-1
+Architecture: all
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 9
+Depends: pluma (= 1.28.0-1)
+Conflicts: pluma-common
+Replaces: pluma-common
+Provides: pluma-common
+Filename: ./pluma-common_1.28.0-1_all.deb
+Size: 2240
+MD5sum: 5d5c281ff66165e69cfbd0db4edcc02e
+SHA1: b28d42ffc61c620fe1389f34a27577a5a9d9ed12
+SHA256: 8a1ae101f6af64c4ee18990ef7db71fa1d534d9dcdf73b84d771c9a4fe25e519
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Description: Transitional package for pluma-common
+ This is a transitional package to satisfy dependencies on pluma-common
+ which is now provided by the pluma package.
+
+Package: pluma-plugins
+Version: 1.28.0
+Architecture: amd64
+Maintainer: Ostia <ostia@unknown>
+Installed-Size: 4395
+Depends: libc6 (>= 2.4), libglib2.0-0t64 (>= 2.76.0), libgtk-3-0t64 (>= 3.9.10), libgtksourceview-4-0 (>= 3.10.1), libpeas-1.0-0 (>= 1.22.0), dconf-gsettings-backend | gsettings-backend, pluma (>= 1.28.0)
+Filename: ./pluma-plugins_1.28.0_amd64.deb
+Size: 234188
+MD5sum: 54e064a8309d7448cb7f6d64a6ea746b
+SHA1: 254aa421a74afe45aa5aab673484f8f5935c709e
+SHA256: 6169c697e5f4b23de3358f2f66cd7829c5160d6329166280faf1161ab68edd67
+Section: editors
+Priority: optional
+Homepage: https://mate-desktop.org
+Description: Plugins for Pluma text editor
+ A collection of plugins for Pluma.
 
 Package: python-caja
 Version: 1.28.0
